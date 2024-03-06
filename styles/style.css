@@ -98,6 +98,20 @@
   pointer-events: none;
 }
 
+.link:hover {
+  border-bottom: 1px solid var(--text-color, #F1B2CE);
+}
+
+.link:focus {
+  outline: none;
+}
+
+.link:focus-visible {
+  outline-width: 1px;
+  outline-style: solid;
+  outline-color: var(--text-color, #F1B2CE);
+}
+
 h1 {
   color: var(--h1-text-color);
   text-shadow: 4px 4px 0 var(--h1-text-shadow);
@@ -204,7 +218,7 @@ span {
 }
 
 .footer-title {
-  color: var(--h1-text-color);
+  color: var(--h1-text-color, #DB00FF);
   text-shadow: 2px 2px 0 var(--h1-text-shadow);
   font-family: IBM Plex Mono;
   font-size: clamp(7.25rem, 7.1055rem + 0.6163vw, 7.5rem);
