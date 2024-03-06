@@ -267,10 +267,6 @@ span {
     gap: 20px;
   }
 
-  .title-decor2 {
-    margin: 10px 0 0;
-  }
-
   .section:last-of-type {
     /*Уменьшаем gap в последней секции с 20px до 10px*/
     gap: 20px;
@@ -376,10 +372,6 @@ span {
 
   .articles {
     gap: 20px;
-  }
-
-  .title-decor2 {
-    margin: 10px 0 0;
   }
 
   .section:last-of-type {
