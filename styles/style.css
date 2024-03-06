@@ -99,8 +99,8 @@
 }
 
 h1 {
-  color: var(--h1-text-color);
-  text-shadow: 4px 4px 0 var(--h1-text-shadow);
+  color: var(--h1-text-color, #DB00FF);
+  text-shadow: 4px 4px 0 var(--h1-text-shadow, #FF0070);
   font-family: IBM Plex Mono;
   font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
   font-weight: 700;
@@ -204,7 +204,7 @@ span {
 }
 
 .footer-title {
-  color: var(--h1-text-color);
+  color: var(--h1-text-color, #DB00FF);
   text-shadow: 2px 2px 0 var(--h1-text-shadow);
   font-family: IBM Plex Mono;
   font-size: clamp(7.25rem, 7.1055rem + 0.6163vw, 7.5rem);
@@ -218,6 +218,7 @@ span {
     align-items: flex-end;
   }
   .first-title {
+    color: var(--h1-text-color);
     margin: 0 0 0 -20px; /*Смещаем заголовок к левой границе*/
   }
 
