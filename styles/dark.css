@@ -1,22 +1,3 @@
-/*
-  Специально для тёмной темы при наличии класса,
-  здесь окажутся стили, которые нужно переопределить принудительно,
-  переключая тему
-*/
-@media (prefers-color-scheme: dark) {
-  :root {
-    --accent-color: #FF0070;
-    --text-color: #F1B2CE;
-    --background-color-title: #FF0070;
-    --h1-text-color:#DB00FF;
-    --h1-text-shadow:#FF0070;
-    --nav-text-color: #FF0070;
-    --title-text-color: #000028;
-    --background-color: (#00183F);
-    --background-image: (../images/cover-image-dark.png);
-  }
-}
-
 .page.theme_dark {
   /* сохраните этот селектор в приведённом виде.
     Так стили написанные ниже будут иметь больший вес,
@@ -24,12 +5,11 @@
   */
     --accent-color: #FF0070;
     --text-color: #F1B2CE;
-    --background-color-title: #FF0070;
     --h1-text-color:#DB00FF;
     --h1-text-shadow:#FF0070;
     --nav-text-color: #FF0070;
     --title-text-color: #000028;
-    --background-color: (#00183F);
-    --background-image: url(../images/cover-image-dark.png);
-    
+    --background-color: (#000028);
+    --background-color-title: #FF0070;
+    --background-image: url(../images/cover-image-dark.png);    
 }
