@@ -6,7 +6,7 @@
   font-family: var(--main-font);
   font-size: 18px;
   background-image: var(--background-image);
-  background-color: var(--background-color-black-theme);
+  background-color: var(--background-color);
   background-position: top center;
   background-size: cover; /*для того чтобы фон занимал всю доступную площадь*/
   background-attachment: fixed; /*фиксируем фон*/
