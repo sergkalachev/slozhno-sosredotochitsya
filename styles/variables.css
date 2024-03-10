@@ -1,9 +1,10 @@
 :root {
   --main-font: 'IBM Plex Mono';
   --accent-color: #ff0070;
+  --accent-color-transparent: rgba(255, 0, 111, 0.4);
   --text-color: #F1B2CE;
-  --h1-text-color: #DB00FF;
-  --h1-text-shadow: #ff0070;
+  --text-with-shadow-color: #DB00FF;
+  --text-shadow: #ff0070;
   --nav-text-color: #ff0070;
   --title-text-color: #000028;
   --background-color: #000028;

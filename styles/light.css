@@ -1,36 +1,34 @@
-@media (prefers-color-scheme: light) {
-  :root {
-    --accent-color: #353430;
-    --text-color: #353430;
-    --background-color-title: #ff8dcb;
-    --h1-text-color: #ffc2e6;
-    --h1-text-shadow: #ff0070;
-    --nav-text-color: #353430;
-    --title-text-color: #353430;
-    --background-color: #fff1f7;
-    --background-image: (../images/cover-image-light.png);
-  }
-  .page.theme_light .rec {
-    display: none;
-  }
-}
-
 .page.theme_light {
   --accent-color: #353430;
+  --accent-color-transparent: rgb(53,52,48,0.4);
   --text-color: #353430;
-  --background-color-title: #ff8dc8;
-  --h1-text-color: #ffc2e6;
-  --h1-text-shadow: #ff0070;
+  --background-color-title: #FF8DCB;
+  --text-with-shadow-color: #ffc2e6;
+  --text-shadow: #ff0070;
   --nav-text-color: #353430;
   --title-text-color: #353430;
   --background-color: #fff1f7;
   --background-image: url(../images/cover-image-light.png);
 }
-
 .page.theme_light .rec {
   display: none;
 }
 
-.page.theme_auto .rec {
-  display: none;
+@media (prefers-color-scheme: light) {
+  :root {
+    --accent-color: #353430;
+    --accent-color-transparent: rgb(53,52,48,0.4);
+    --text-color: #353430;
+    --background-color-title: #ff8dcb;
+    --text-with-shadow-color: #ffc2e6;
+    --text-shadow: #ff0070;
+    --nav-text-color: #353430;
+    --title-text-color: #353430;
+    --background-color: #fff1f7;
+    --background-image: url(../images/cover-image-light.png);
+  }
+  .page.theme_auto .rec { /*скрываем rec для авто режима если по умолчанию выставлена темная тема на пк*/
+    display: none;
+  }
 }
+
