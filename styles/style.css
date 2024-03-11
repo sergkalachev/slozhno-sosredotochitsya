@@ -3,7 +3,7 @@
 .page {
   min-inline-size: 375px; /*Начинаем с mobile first*/
   color: var(--text-color, #f1b2ce);
-  font-family: var(--main-font, "Courier New");
+  font-family: var(--main-font, "Courier New", sans-serif);
   font-size: 18px;
   background-image: var(--background-image);
   background-color: var(--background-color);
@@ -101,7 +101,7 @@
 
 .link {
   text-decoration: none;
-  text-shadow: 2px 2px 0 var(--text-shadow);
+  text-shadow: 2px 2px 0 var(--text-shadow-link);
 }
 
 .link:hover {
@@ -121,7 +121,7 @@
 .header-title {
   color: var(--text-with-shadow-color);
   text-shadow: 4px 4px 0 var(--text-shadow);
-  font-family: var(--main-font, "Courier New");
+  font-family: var(--main-font, "Courier New", sans-serif);
   font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
   font-weight: 700;
   line-height: 82.5%;
@@ -137,7 +137,7 @@
   font-weight: 700;
   line-height: 23.4px;
   background-color: var(--background-color-title);
-  font-family: var(--main-font, "Courier New");
+  font-family: var(--main-font, "Courier New", sans-serif);
 }
 
 .sub-title {
@@ -145,7 +145,7 @@
   font-weight: 400;
   line-height: 23.4px;
   background-color: var(--background-color-title);
-  font-family: var(--main-font, "Courier New");
+  font-family: var(--main-font, "Courier New", sans-serif);
 }
 
 .main {
@@ -211,7 +211,7 @@
 .footer-title {
   color: var(--text-with-shadow-color, #db00ff);
   text-shadow: 2px 2px 0 var(--text-shadow);
-  font-family: var(--main-font, "Courier New");
+  font-family: var(--main-font, "Courier New", sans-serif);
   font-size: clamp(7.25rem, 7.1055rem + 0.6163vw, 7.5rem);
   font-weight: 700;
   line-height: 82.5%;
@@ -223,7 +223,6 @@
     align-items: flex-end;
   }
   .header-title {
-    color: var(--text-with-shadow-color);
     margin: 0 0 0 -20px; /*Смещаем заголовок к левой границе*/
     font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
   }
